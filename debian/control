@@ -1,0 +1,12 @@
+Source: ceibal-hello
+Maintainer: Plan Ceibal <apt@plan.ceibal.edu.uy>
+Section: Ceibal
+Priority: optional
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9)
+
+Package: ceibal-hello
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Ceibal dice Hola!
+ ceibal-hello indica que funcionó la instalación desde el repositorio APT Ceibal.
